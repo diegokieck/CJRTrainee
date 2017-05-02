@@ -1,0 +1,63 @@
+body{
+	background: gainsboro;
+}
+
+#tabela{
+	border-collapse: ;
+	border: solid black 1px;
+}
+#tabela td, #tabela th{
+	
+	border: solid black 1px;
+}
+
+#site{
+	width: 80%;
+	border-radius: 5px;
+	background: blue;
+	margin: auto;
+	padding: 10px;
+}
+
+
+#header,#banner, #conteudo, #footer{
+	max-width: 100%;
+	background: darkblue;
+	
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+
+#logo{
+	background: gainsboro;
+	padding: 10px;
+	border-radius: 5px;	
+	margin-top: 5px;
+	
+}
+
+#menu, #comentario, #esquerdo, #direito, #copyright{
+	background: gainsboro;
+	padding: 10px;
+	border-radius: 5px;	
+	margin-top: 5px;
+	
+}
+
+.noticia{
+	padding: 10px;
+	background: #b0b0d9;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.preto{
+	color: black;
+}
+.branco{
+	color: white;
+}
+
