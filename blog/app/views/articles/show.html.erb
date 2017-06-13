@@ -1,0 +1,27 @@
+<div class = "header">
+	<h1>Artigos do Diego</h1>
+</div>
+
+ 
+<div class= "container">
+  <h2 >
+	<strong>  <%= @article.title %>
+	</strong>
+  </h2>
+	<dir class="divider"></dir>
+  
+  <%= @article.text %>
+
+<dir class="divider"></dir>
+
+<h4>Comments</h4>
+<%= render @article.comments %>
+ 
+
+
+<h4>Add a comment:</h4>
+<%= render 'comments/form' %>
+
+<%= link_to 'Back', articles_path , class: "btn btn-default"%>
+<%= link_to 'Edit', edit_article_path(@article), class: "btn btn-default" %> 
+</div>
